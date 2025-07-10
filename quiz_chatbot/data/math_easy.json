@@ -1,0 +1,542 @@
+[
+  {
+    "question": "What is 5 + 3?",
+    "answer": "8",
+    "explanation": "5 plus 3 equals 8.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 10 - 4?",
+    "answer": "6",
+    "explanation": "10 minus 4 equals 6.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 2 multiply 6?",
+    "answer": "12",
+    "explanation": "2 times 6 equals 12.",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 15 by 3?",
+    "answer": "5",
+    "explanation": "15 divided by 3 equals 5.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is the value of 9 + 1?",
+    "answer": "10",
+    "explanation": "9 plus 1 equals 10.",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 7 - 5?",
+    "answer": "2",
+    "explanation": "7 minus 5 equals 2.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 4 multiply 3?",
+    "answer": "12",
+    "explanation": "4 times 3 equals 12.",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 20 divide 4?",
+    "answer": "5",
+    "explanation": "20 divided by 4 equals 5.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is the next number after 14?",
+    "answer": "15",
+    "explanation": "The number after 14 is 15.",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tag": "numbers"
+  },
+  {
+    "question": "What is 3 + 7?",
+    "answer": "10",
+    "explanation": "3 plus 7 equals 10.",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 12 - 8?",
+    "answer": "4",
+    "explanation": "12 minus 8 equals 4.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 6 multiply 2?",
+    "answer": "12",
+    "explanation": "6 times 2 equals 12.",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 18 divide 6?",
+    "answer": "3",
+    "explanation": "18 divided by 6 equals 3.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is 1 + 9?",
+    "answer": "10",
+    "explanation": "1 plus 9 equals 10.",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 8 - 3?",
+    "answer": "5",
+    "explanation": "8 minus 3 equals 5.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 5 multiply 5?",
+    "answer": "25",
+    "explanation": "5 times 5 equals 25.",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 24 divide 8?",
+    "answer": "3",
+    "explanation": "24 divided by 8 equals 3.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is 2 + 2?",
+    "answer": "4",
+    "explanation": "2 plus 2 equals 4.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 10 - 7?",
+    "answer": "3",
+    "explanation": "10 minus 7 equals 3.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 7 multiply 1?",
+    "answer": "7",
+    "explanation": "7 times 1 equals 7.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 16 divide 2?",
+    "answer": "8",
+    "explanation": "16 divided by 2 equals 8.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is the value of 0 + 6?",
+    "answer": "6",
+    "explanation": "0 plus 6 equals 6.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 9 - 2?",
+    "answer": "7",
+    "explanation": "9 minus 2 equals 7.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 3 multiply 4?",
+    "answer": "12",
+    "explanation": "3 times 4 equals 12.",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 14 divide 2?",
+    "answer": "7",
+    "explanation": "14 divided by 2 equals 7.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is 6 + 7?",
+    "answer": "13",
+    "explanation": "6 plus 7 equals 13.",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 11 - 6?",
+    "answer": "5",
+    "explanation": "11 minus 6 equals 5.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 2 multiply 7?",
+    "answer": "14",
+    "explanation": "2 times 7 equals 14.",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 21 divide 3?",
+    "answer": "7",
+    "explanation": "21 divided by 3 equals 7.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is 4 + 4?",
+    "answer": "8",
+    "explanation": "4 plus 4 equals 8.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 13 - 5?",
+    "answer": "8",
+    "explanation": "13 minus 5 equals 8.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 3 multiply 3?",
+    "answer": "9",
+    "explanation": "3 times 3 equals 9.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 12 divide 4?",
+    "answer": "3",
+    "explanation": "12 divided by 4 equals 3.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is 8 + 2?",
+    "answer": "10",
+    "explanation": "8 plus 2 equals 10.",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 10 - 3?",
+    "answer": "7",
+    "explanation": "10 minus 3 equals 7.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 2 multiply 8?",
+    "answer": "16",
+    "explanation": "2 times 8 equals 16.",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 16 divide 4?",
+    "answer": "4",
+    "explanation": "16 divided by 4 equals 4.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is 7 + 2?",
+    "answer": "9",
+    "explanation": "7 plus 2 equals 9.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 15 - 7?",
+    "answer": "8",
+    "explanation": "15 minus 7 equals 8.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 4 multiply 2?",
+    "answer": "8",
+    "explanation": "4 times 2 equals 8.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 18 divide 3?",
+    "answer": "6",
+    "explanation": "18 divided by 3 equals 6.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is 6 + 6?",
+    "answer": "12",
+    "explanation": "6 plus 6 equals 12.",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "tag": "addition"
+  },
+  {
+    "question": "What is 14 - 8?",
+    "answer": "6",
+    "explanation": "14 minus 8 equals 6.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "tag": "subtraction"
+  },
+  {
+    "question": "What is 5 multiply 2?",
+    "answer": "10",
+    "explanation": "5 times 2 equals 10.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is 20 divide 2?",
+    "answer": "10",
+    "explanation": "20 divided by 2 equals 10.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tag": "division"
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria",
+    "explanation": "Mitochondria are known as the powerhouse of the cell because they generate most of the cell's energy.",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Chloroplast"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "answer": "K",
+    "explanation": "The chemical symbol for potassium is K.",
+    "options": [
+      "P",
+      "K",
+      "Pt",
+      "Po"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "explanation": "Mars is often called the Red Planet due to its reddish appearance.",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+    ],
+    "tag": "space"
+  },
+  {
+    "question": "What is the main function of white blood cells?",
+    "answer": "Fighting infection",
+    "explanation": "White blood cells help defend the body against infectious disease.",
+    "options": [
+      "Carrying oxygen",
+      "Fighting infection",
+      "Clotting blood",
+      "Digesting food"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which gas is used in the preparation of soft drinks?",
+    "answer": "Carbon dioxide",
+    "explanation": "Carbon dioxide is dissolved in soft drinks to make them fizzy.",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the process by which green plants make their own food?",
+    "answer": "Photosynthesis",
+    "explanation": "Photosynthesis is the process by which green plants make food using sunlight.",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Transpiration",
+      "Fermentation"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the boiling point of water in Fahrenheit?",
+    "answer": "212",
+    "explanation": "Water boils at 212°F at standard atmospheric pressure.",
+    "options": [
+      "100",
+      "180",
+      "200",
+      "212"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which vitamin helps in blood clotting?",
+    "answer": "Vitamin K",
+    "explanation": "Vitamin K is essential for the process of blood clotting.",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin D"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which organ in the human body produces insulin?",
+    "answer": "Pancreas",
+    "explanation": "The pancreas produces the hormone insulin.",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Stomach"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the main component of natural gas?",
+    "answer": "Methane",
+    "explanation": "Methane is the primary component of natural gas.",
+    "options": [
+      "Propane",
+      "Methane",
+      "Butane",
+      "Ethane"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the SI unit of electric current?",
+    "answer": "Ampere",
+    "explanation": "The SI unit of electric current is the ampere (A).",
+    "options": [
+      "Volt",
+      "Ohm",
+      "Ampere",
+      "Watt"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What is the process of change of a liquid into vapor called?",
+    "answer": "Evaporation",
+    "explanation": "Evaporation is the process by which a liquid changes into vapor.",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Sublimation",
+      "Melting"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which planet has the most moons?",
+    "answer": "Saturn",
+    "explanation": "Saturn currently has the most known moons in the solar system.",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "tag": "space"
+  },
+  {
+    "question": "What is the main function of red blood cells?",
+    "answer": "Carrying oxygen",
+    "explanation": "Red blood cells transport oxygen from the lungs to the rest of the body.",
+    "options": [
+      "Fighting infection",
+      "Carrying oxygen",
+      "Clotting blood",
+      "Digesting food"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical formula for table sugar (sucrose)?",
+    "answer": "C12H22O11",
+    "explanation": "The chemical formula for sucrose is C12H22O11.",
