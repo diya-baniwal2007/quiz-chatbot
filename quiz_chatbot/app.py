@@ -1,171 +1,130 @@
 import streamlit as st
 import json
+import random
 import os
-import time
-from fuzzywuzzy import fuzz
+from datetime import datetime
 
-st.set_page_config(page_title="Quiz Chatbot", page_icon="🧠")
+st.set_page_config(page_title="AI Quiz Chatbot", page_icon="🤖", layout="wide")
 
-# Sidebar for quiz setup
-st.sidebar.title("🧠 Quiz Setup")
-name = st.sidebar.text_input("Enter your name:")
-topic = st.sidebar.selectbox("Choose Topic", ["math", "general", "science"])
-difficulty = st.sidebar.selectbox("Select Difficulty", ["easy", "medium", "hard"])
-question_count = st.sidebar.selectbox("Questions to attempt", [10, 20, 50])
-time_limit = st.sidebar.slider("Time per question (seconds):", 10, 60, 30)
+# ------------------ Load Questions ------------------
+def load_questions(topic, difficulty, tag_filter):
+    filepath = f"data/{topic}_questions.json"
 
-# Tag filter setup
-tag_options = ["All"]
-tag_file = f"data/{topic}_{difficulty}.json"
-if os.path.exists(tag_file):
-    with open(tag_file, "r") as f:
-        tags = list(set([q.get("tag", "") for q in json.load(f)]))
-        tag_options += sorted([t for t in tags if t])
-tag_filter = st.sidebar.selectbox("Filter by Tag", tag_options)
+    try:
+        with open(filepath, "r") as f:
+            questions = json.load(f)
+    except FileNotFoundError:
+        st.error(f"🚫 File not found: `{filepath}`")
+        return []
+    except Exception as e:
+        st.error(f"❌ Error loading `{filepath}`: {e}")
+        return []
 
-# Function to load questions
-def load_questions(topic, difficulty, tag):
-    path = f"data/{topic}_{difficulty}.json"
-    if os.path.exists(path):
-        with open(path, "r") as f:
-            data = json.load(f)
-            if tag != "All":
-                data = [q for q in data if q.get("tag") == tag]
-            return data
-    return []
+    st.write(f"✅ Loaded file: `{filepath}`")
+    st.write(f"📦 Total questions in file: {len(questions)}")
 
-# Function to save user score
+    filtered = [
+        q for q in questions
+        if q.get("difficulty") == difficulty and (tag_filter == "All" or q.get("tag") == tag_filter)
+    ]
+
+    st.write(f"🔍 Questions after filtering: {len(filtered)}")
+    return filtered
+
+# ------------------ Save Score ------------------
 def save_score(name, score, total, topic):
-    entry = {"name": name, "score": score, "total": total, "topic": topic}
-    if not os.path.exists("scores.json"):
-        with open("scores.json", "w") as f:
-            json.dump([entry], f, indent=2)
+    data_file = "leaderboard.json"
+    entry = {
+        "name": name,
+        "score": score,
+        "total": total,
+        "topic": topic,
+        "timestamp": str(datetime.now())
+    }
+    if os.path.exists(data_file):
+        try:
+            with open(data_file, "r") as f:
+                data = json.load(f)
+        except json.JSONDecodeError:
+            data = []
     else:
-        with open("scores.json", "r") as f:
-            data = json.load(f)
-        data.append(entry)
-        with open("scores.json", "w") as f:
-            json.dump(data, f, indent=2)
+        data = []
+    data.append(entry)
+    with open(data_file, "w") as f:
+        json.dump(data, f)
 
-# Main title
-st.title("🤖 AI Quiz Chatbot")
+# ------------------ Show Leaderboard ------------------
+def show_leaderboard():
+    if not os.path.exists("leaderboard.json"):
+        st.info("No leaderboard data available yet.")
+        return
 
-# Start quiz setup
-if name and st.sidebar.button("Start Quiz"):
-    st.session_state.started = True
-    st.session_state.name = name
-    st.session_state.topic = topic
-    st.session_state.difficulty = difficulty
-    st.session_state.tag = tag_filter
-    st.session_state.q_index = 0
+    with open("leaderboard.json", "r") as f:
+        data = json.load(f)
+
+    sorted_data = sorted(data, key=lambda x: x["score"], reverse=True)
+    st.subheader("🏆 Leaderboard Result")
+    for i, entry in enumerate(sorted_data[:10]):
+        st.markdown(f"{i+1}. **{entry['name']}** - {entry['score']}/{entry['total']} ({entry.get('topic', 'N/A')})")
+
+# ------------------ App Start ------------------
+st.markdown("## 🤖 AI Quiz Chatbot")
+
+# Sidebar Setup
+st.sidebar.header("🧠 Quiz Setup")
+name = st.sidebar.text_input("Enter your name:", "")
+topic = st.sidebar.selectbox("Choose Topic", ["math", "science", "general"])
+difficulty = st.sidebar.selectbox("Select Difficulty", ["easy", "medium", "hard"])
+num_questions = st.sidebar.selectbox("Questions to attempt", [10, 20, 50])
+time_per_question = st.sidebar.slider("Time per question (seconds):", 10, 60, 30)
+tag_filter = st.sidebar.selectbox("Filter by Tag", ["All", "algebra", "geometry", "biology", "history"])
+
+if "quiz_started" not in st.session_state:
+    st.session_state.quiz_started = False
+
+if st.sidebar.button("Start Quiz"):
+    st.session_state.quiz_started = True
+    st.session_state.current_q = 0
     st.session_state.score = 0
-    st.session_state.history = []
-    st.session_state.time_limit = time_limit
-    st.session_state.question_start = time.time()
-    st.session_state.questions = load_questions(topic, difficulty, tag_filter)[:question_count]
-    st.rerun()
+    st.session_state.questions = load_questions(topic, difficulty, tag_filter)
+    st.session_state.selected = []
+    if len(st.session_state.questions) < num_questions:
+        st.warning(f"Only {len(st.session_state.questions)} questions available. Adjusting quiz size.")
+        num_questions = len(st.session_state.questions)
+    random.shuffle(st.session_state.questions)
+    st.session_state.questions = st.session_state.questions[:num_questions]
+    st.session_state.total = len(st.session_state.questions)
 
-# Quiz logic
-if st.session_state.get("started"):
-    questions = st.session_state.questions
-    q_index = st.session_state.q_index
-
-    if q_index < len(questions):
-        current = questions[q_index]
-        st.markdown(f"**Question {q_index + 1}:** {current['question']}")
-        elapsed = time.time() - st.session_state.question_start
-        remaining = max(0, st.session_state.time_limit - int(elapsed))
-        st.info(f"⏱️ Time remaining: {remaining}s")
-
-        options = current.get("options")
-        answer = None
-
-        if "answered" not in st.session_state:
-            if remaining <= 0:
-                st.warning("⏰ Time's up!")
-                st.session_state.answered = "[TIMEOUT]"
-                st.session_state.history.append({
-                    "question": current["question"],
-                    "user_answer": "[TIMEOUT]",
-                    "correct": False,
-                    "tag": current.get("tag", "")
-                })
-            else:
-                if options:
-                    answer = st.radio("Choose an option:", options, key=f"radio_{q_index}")
-                else:
-                    answer = st.text_input("Type your answer:", key=f"text_{q_index}")
-
-                if st.button("Submit", key=f"submit_{q_index}"):
-                    correct_answer = current["answer"]
-                    if options:
-                        is_correct = answer == correct_answer
-                    else:
-                        is_correct = fuzz.ratio(answer.lower(), correct_answer.lower()) > 80
-
-                    st.session_state.answered = answer
-                    if is_correct:
-                        st.success(f"✅ Correct answer!")
-                        st.session_state.score += 1
-                    else:
-                        st.error(f"❌ Incorrect answer.")
-                        st.info(f"Correct Answer: {correct_answer}")
-
-                    st.info(f"📘 Explanation: {current.get('explanation', 'No explanation provided.')}")
-                    st.session_state.history.append({
-                        "question": current["question"],
-                        "user_answer": answer,
-                        "correct": is_correct,
-                        "tag": current.get("tag", "")
-                    })
-
-        else:
-            if st.button("Next Question"):
-                st.session_state.q_index += 1
-                del st.session_state["answered"]
-                st.session_state.question_start = time.time()
-                st.rerun()
-
+if st.session_state.quiz_started:
+    if st.session_state.current_q < st.session_state.total:
+        q = st.session_state.questions[st.session_state.current_q]
+        st.markdown(f"### Question {st.session_state.current_q + 1}: {q['question']}")
+        options = q['options']
+        answer = st.radio("Choose an option:", options, key=f"q{st.session_state.current_q}")
+        if st.button("Next Question"):
+            if answer == q['answer']:
+                st.session_state.score += 1
+            st.session_state.current_q += 1
+            st.rerun()
     else:
-        # Quiz finished
-        st.header("🎉 Quiz Completed!")
-        score = st.session_state.score
-        total = len(questions)
-        st.success(f"{st.session_state.name}, your final score is **{score}/{total}**.")
-        save_score(name, score, total, topic)
+        st.markdown("## 🎉 Quiz Completed!")
+        st.success(f"**{name}**, your final score is {st.session_state.score}/{st.session_state.total}")
 
-        # Personalized Feedback
-        wrong = [q for q in st.session_state.history if not q['correct']]
-        if score == total:
-            st.balloons()
+        # Show feedback
+        if st.session_state.total == 0:
+            st.warning("⚠️ No questions attempted.")
+        elif st.session_state.score == st.session_state.total:
             st.success("🌟 Incredible! You got a **perfect score**!")
             st.markdown("Your basics are **rock solid**. Keep up the amazing work! 💪🧠")
-        elif wrong:
-            st.subheader("📊 Personalized Feedback")
-            weak_tags = {}
-            for q in wrong:
-                tag = q.get("tag", "Untagged")
-                weak_tags[tag] = weak_tags.get(tag, 0) + 1
-            weakest = sorted(weak_tags.items(), key=lambda x: x[1], reverse=True)
+        elif st.session_state.score >= st.session_state.total * 0.7:
+            st.info("👍 Good job! But you can improve further.")
+        else:
+            st.error("📚 You need to work on key topics. Keep practicing!")
 
-            st.warning("You need to work on the following areas:")
-            for tag, count in weakest:
-                st.markdown(f"- **{tag}**: {count} incorrect")
-
-            st.info("🔁 Practice those topics again. You're improving!")
-
-        # Show leaderboard
-        if os.path.exists("scores.json"):
-            with open("scores.json", "r") as f:
-                data = json.load(f)
-            data_sorted = sorted(data, key=lambda x: x['score'], reverse=True)
-            rank = [x['name'] for x in data_sorted]
-            user_rank = rank.index(name) + 1
-            total_players = len(rank)
-            st.subheader("🏆 Leaderboard Result")
-            st.success(f"You ranked **#{user_rank}** out of **{total_players}** participants!")
+        # Save and show leaderboard
+        save_score(name, st.session_state.score, st.session_state.total, topic)
+        show_leaderboard()
 
         if st.button("Restart Quiz"):
-            for key in list(st.session_state.keys()):
-                del st.session_state[key]
+            st.session_state.quiz_started = False
             st.rerun()
