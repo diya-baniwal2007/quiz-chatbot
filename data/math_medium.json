@@ -1,0 +1,566 @@
+[
+  {
+    "question": "What is the value of 12 * 8?",
+    "answer": "96",
+    "explanation": "12 times 8 equals 96.",
+    "options": [
+      "88",
+      "96",
+      "104",
+      "108"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is the square root of 225?",
+    "answer": "15",
+    "explanation": "15 * 15 = 225.",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "18"
+    ],
+    "tag": "square_root"
+  },
+  {
+    "question": "What is 7 squared?",
+    "answer": "49",
+    "explanation": "7 * 7 = 49.",
+    "options": [
+      "42",
+      "49",
+      "56",
+      "63"
+    ],
+    "tag": "exponents"
+  },
+  {
+    "question": "What is the value of 144 ÷ 12?",
+    "answer": "12",
+    "explanation": "144 divided by 12 equals 12.",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is the value of (3 + 5) * 2?",
+    "answer": "16",
+    "explanation": "(3 + 5) * 2 = 8 * 2 = 16.",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "tag": "order_of_operations"
+  },
+  {
+    "question": "What is the greatest common divisor (GCD) of 18 and 24?",
+    "answer": "6",
+    "explanation": "6 is the largest number that divides both 18 and 24.",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "12"
+    ],
+    "tag": "gcd"
+  },
+  {
+    "question": "What is the least common multiple (LCM) of 4 and 6?",
+    "answer": "12",
+    "explanation": "12 is the smallest number divisible by both 4 and 6.",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "24"
+    ],
+    "tag": "lcm"
+  },
+  {
+    "question": "What is the value of 3^4?",
+    "answer": "81",
+    "explanation": "3 * 3 * 3 * 3 = 81.",
+    "options": [
+      "27",
+      "64",
+      "81",
+      "91"
+    ],
+    "tag": "exponents"
+  },
+  {
+    "question": "What is the sum of the angles in a triangle?",
+    "answer": "180",
+    "explanation": "The sum of the angles in a triangle is always 180 degrees.",
+    "options": [
+      "90",
+      "180",
+      "270",
+      "360"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the area of a rectangle with length 7 and width 5?",
+    "answer": "35",
+    "explanation": "Area = length * width = 7 * 5 = 35.",
+    "options": [
+      "30",
+      "32",
+      "35",
+      "40"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the value of 2x + 3 = 11?",
+    "answer": "4",
+    "explanation": "2x = 8, so x = 4.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the perimeter of a square with side length 9?",
+    "answer": "36",
+    "explanation": "Perimeter = 4 * side = 4 * 9 = 36.",
+    "options": [
+      "27",
+      "36",
+      "45",
+      "54"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is 15% of 200?",
+    "answer": "30",
+    "explanation": "0.15 * 200 = 30.",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "tag": "percentages"
+  },
+  {
+    "question": "What is the median of the set {7, 9, 12, 15, 18}?",
+    "answer": "12",
+    "explanation": "The middle value is 12.",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "tag": "statistics"
+  },
+  {
+    "question": "What is the mode of the set {2, 4, 4, 6, 8}?",
+    "answer": "4",
+    "explanation": "4 appears most frequently.",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "tag": "statistics"
+  },
+  {
+    "question": "What is the value of 5 factorial (5!)?",
+    "answer": "120",
+    "explanation": "5! = 5 * 4 * 3 * 2 * 1 = 120.",
+    "options": [
+      "60",
+      "100",
+      "120",
+      "150"
+    ],
+    "tag": "factorial"
+  },
+  {
+    "question": "What is the value of 2/3 + 1/6?",
+    "answer": "5/6",
+    "explanation": "2/3 = 4/6, 4/6 + 1/6 = 5/6.",
+    "options": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1"
+    ],
+    "tag": "fractions"
+  },
+  {
+    "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
+    "answer": "32",
+    "explanation": "Each term is multiplied by 2; 16 * 2 = 32.",
+    "options": [
+      "20",
+      "24",
+      "32",
+      "36"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the solution to the equation x^2 = 49?",
+    "answer": "7 or -7",
+    "explanation": "x = ±7.",
+    "options": [
+      "7",
+      "-7",
+      "7 or -7",
+      "0"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the value of the expression 4^2 + 3^2?",
+    "answer": "25",
+    "explanation": "16 + 9 = 25.",
+    "options": [
+      "19",
+      "22",
+      "25",
+      "28"
+    ],
+    "tag": "arithmetic"
+  },
+  {
+    "question": "What is the sum of the first 10 positive integers?",
+    "answer": "55",
+    "explanation": "Sum = n(n+1)/2 = 10*11/2 = 55.",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the value of 0.25 * 0.4?",
+    "answer": "0.1",
+    "explanation": "0.25 * 0.4 = 0.10.",
+    "options": [
+      "0.01",
+      "0.1",
+      "0.14",
+      "0.16"
+    ],
+    "tag": "decimals"
+  },
+  {
+    "question": "What is the value of 3/4 as a percentage?",
+    "answer": "75",
+    "explanation": "3/4 * 100 = 75%.",
+    "options": [
+      "25",
+      "50",
+      "75",
+      "80"
+    ],
+    "tag": "percentages"
+  },
+  {
+    "question": "What is the area of a triangle with base 10 and height 5?",
+    "answer": "25",
+    "explanation": "Area = 1/2 * base * height = 25.",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the value of 2^5?",
+    "answer": "32",
+    "explanation": "2 * 2 * 2 * 2 * 2 = 32.",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "tag": "exponents"
+  },
+  {
+    "question": "What is the circumference of a circle with diameter 14? (Use π ≈ 3.14)",
+    "answer": "43.96",
+    "explanation": "Circumference = π * diameter = 3.14 * 14 = 43.96.",
+    "options": [
+      "44.00",
+      "43.96",
+      "45.00",
+      "46.00"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the mean of the numbers 6, 8, 10, 12?",
+    "answer": "9",
+    "explanation": "Mean = (6+8+10+12)/4 = 36/4 = 9.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tag": "statistics"
+  },
+  {
+    "question": "What is the value of 7 * 13?",
+    "answer": "91",
+    "explanation": "7 * 13 = 91.",
+    "options": [
+      "81",
+      "84",
+      "91",
+      "97"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is the value of 2/5 of 100?",
+    "answer": "40",
+    "explanation": "2/5 * 100 = 40.",
+    "options": [
+      "20",
+      "40",
+      "50",
+      "60"
+    ],
+    "tag": "fractions"
+  },
+  {
+    "question": "What is the sum of the angles in a quadrilateral?",
+    "answer": "360",
+    "explanation": "Sum = (4-2) * 180 = 360 degrees.",
+    "options": [
+      "180",
+      "270",
+      "360",
+      "540"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the solution to the equation 3x - 4 = 11?",
+    "answer": "5",
+    "explanation": "3x = 15, so x = 5.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the value of 13 * 7?",
+    "answer": "91",
+    "explanation": "13 * 7 = 91.",
+    "options": [
+      "81",
+      "84",
+      "91",
+      "97"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is the value of 1000 / 25?",
+    "answer": "40",
+    "explanation": "1000 divided by 25 is 40.",
+    "options": [
+      "25",
+      "30",
+      "40",
+      "50"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is the value of 0.2 * 0.5?",
+    "answer": "0.1",
+    "explanation": "0.2 * 0.5 = 0.1.",
+    "options": [
+      "0.05",
+      "0.1",
+      "0.15",
+      "0.2"
+    ],
+    "tag": "decimals"
+  },
+  {
+    "question": "What is the value of 8^2?",
+    "answer": "64",
+    "explanation": "8 * 8 = 64.",
+    "options": [
+      "56",
+      "60",
+      "64",
+      "72"
+    ],
+    "tag": "exponents"
+  },
+  {
+    "question": "What is the value of 1/4 + 1/8?",
+    "answer": "3/8",
+    "explanation": "1/4 = 2/8, so 2/8 + 1/8 = 3/8.",
+    "options": [
+      "1/2",
+      "3/8",
+      "1/4",
+      "5/8"
+    ],
+    "tag": "fractions"
+  },
+  {
+    "question": "What is the value of 9 * 11?",
+    "answer": "99",
+    "explanation": "9 * 11 = 99.",
+    "options": [
+      "81",
+      "90",
+      "99",
+      "101"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is the value of 36 / 0.5?",
+    "answer": "72",
+    "explanation": "36 divided by 0.5 is 72.",
+    "options": [
+      "18",
+      "36",
+      "72",
+      "108"
+    ],
+    "tag": "division"
+  },
+  {
+    "question": "What is the value of 2x = 18?",
+    "answer": "9",
+    "explanation": "x = 18/2 = 9.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the value of 0.75 as a fraction?",
+    "answer": "3/4",
+    "explanation": "0.75 = 3/4.",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "4/5"
+    ],
+    "tag": "fractions"
+  },
+  {
+    "question": "What is the area of a square with side 11?",
+    "answer": "121",
+    "explanation": "Area = side * side = 11 * 11 = 121.",
+    "options": [
+      "110",
+      "121",
+      "132",
+      "144"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the solution to the equation x/5 = 7?",
+    "answer": "35",
+    "explanation": "x = 7 * 5 = 35.",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the sum of the first five odd numbers?",
+    "answer": "25",
+    "explanation": "1 + 3 + 5 + 7 + 9 = 25.",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the value of 14 * 6?",
+    "answer": "84",
+    "explanation": "14 * 6 = 84.",
+    "options": [
+      "72",
+      "78",
+      "84",
+      "90"
+    ],
+    "tag": "multiplication"
+  },
+  {
+    "question": "What is the value of 2^3 + 3^2?",
+    "answer": "17",
+    "explanation": "2^3 = 8, 3^2 = 9, 8 + 9 = 17.",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "tag": "arithmetic"
+  },
+  {
+    "question": "What is the value of 0.6 * 0.7?",
+    "answer": "0.42",
+    "explanation": "0.6 * 0.7 = 0.42.",
+    "options": [
+      "0.36",
+      "0.42",
+      "0.48",
+      "0.54"
+    ],
+    "tag": "decimals"
+  },
+  {
+    "question": "What is the value of 9^2?",
+    "answer": "81",
+    "explanation": "9 * 9 = 81.",
+    "options": [
+      "72",
+      "81",
+      "90",
+      "99"
+    ],
+    "tag": "exponents"
+  }
+]

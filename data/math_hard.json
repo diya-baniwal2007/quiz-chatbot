@@ -1,0 +1,602 @@
+[
+  {
+    "question": "What is the value of the limit as x approaches 0 of (sin x)/x?",
+    "answer": "1",
+    "explanation": "The limit limₓ→0 (sin x)/x equals 1.",
+    "options": [
+      "0",
+      "1",
+      "Infinity",
+      "Does not exist"
+    ],
+    "tag": "calculus"
+  },
+  {
+    "question": "What is the derivative of e^(2x) with respect to x?",
+    "answer": "2e^(2x)",
+    "explanation": "The derivative of e^(2x) is 2e^(2x).",
+    "options": [
+      "e^(2x)",
+      "2e^(2x)",
+      "e^(x)",
+      "2e^(x)"
+    ],
+    "tag": "calculus"
+  },
+  {
+    "question": "How many prime numbers are there less than 100?",
+    "answer": "25",
+    "explanation": "There are 25 prime numbers less than 100.",
+    "options": [
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "tag": "number_theory"
+  },
+  {
+    "question": "What is the sum of the infinite geometric series 3 + 1.5 + 0.75 + ...?",
+    "answer": "6",
+    "explanation": "Sum = a/(1-r) = 3/(1-0.5) = 6.",
+    "options": [
+      "6",
+      "5",
+      "4.5",
+      "7"
+    ],
+    "tag": "series"
+  },
+  {
+    "question": "What is the determinant of the matrix [[1,2],[3,4]]?",
+    "answer": "-2",
+    "explanation": "Determinant = 1*4 - 2*3 = 4 - 6 = -2.",
+    "options": [
+      "-2",
+      "2",
+      "0",
+      "1"
+    ],
+    "tag": "linear_algebra"
+  },
+  {
+    "question": "What is the value of π to 5 decimal places?",
+    "answer": "3.14159",
+    "explanation": "π to 5 decimal places is 3.14159.",
+    "options": [
+      "3.14159",
+      "3.14169",
+      "3.14149",
+      "3.14139"
+    ],
+    "tag": "constants"
+  },
+  {
+    "question": "What is the solution to the equation x^2 - 5x + 6 = 0?",
+    "answer": "x = 2 or x = 3",
+    "explanation": "(x-2)(x-3)=0, so x=2 or x=3.",
+    "options": [
+      "x = 1 or x = 6",
+      "x = 2 or x = 3",
+      "x = -2 or x = -3",
+      "x = 0 or x = 6"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the integral of 1/x dx?",
+    "answer": "ln|x| + C",
+    "explanation": "∫1/x dx = ln|x| + C.",
+    "options": [
+      "ln|x| + C",
+      "1/x + C",
+      "x + C",
+      "e^x + C"
+    ],
+    "tag": "calculus"
+  },
+  {
+    "question": "What is the 10th Fibonacci number?",
+    "answer": "55",
+    "explanation": "The 10th Fibonacci number is 55.",
+    "options": [
+      "34",
+      "55",
+      "89",
+      "21"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the sum of the interior angles of a decagon?",
+    "answer": "1440",
+    "explanation": "Sum = (10-2)*180 = 1440 degrees.",
+    "options": [
+      "1440",
+      "1620",
+      "1260",
+      "1800"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the probability of getting exactly two heads in three coin tosses?",
+    "answer": "3/8",
+    "explanation": "There are 3 ways: HHT, HTH, THH. Probability = 3/8.",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/8",
+      "1/8"
+    ],
+    "tag": "probability"
+  },
+  {
+    "question": "What is the value of log₁₀(1000)?",
+    "answer": "3",
+    "explanation": "10^3 = 1000, so log₁₀(1000) = 3.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "tag": "logarithms"
+  },
+  {
+    "question": "What is the area of a circle with radius 7?",
+    "answer": "49π",
+    "explanation": "Area = πr^2 = π*7^2 = 49π.",
+    "options": [
+      "14π",
+      "49π",
+      "21π",
+      "28π"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the sum of the first 20 natural numbers?",
+    "answer": "210",
+    "explanation": "Sum = n(n+1)/2 = 20*21/2 = 210.",
+    "options": [
+      "210",
+      "220",
+      "200",
+      "230"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the solution to 2^x = 32?",
+    "answer": "5",
+    "explanation": "2^5 = 32, so x = 5.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the standard deviation of the set {2, 4, 4, 4, 5, 5, 7, 9}?",
+    "answer": "2",
+    "explanation": "The standard deviation of this set is 2.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "tag": "statistics"
+  },
+  {
+    "question": "What is the value of cos(π/3)?",
+    "answer": "1/2",
+    "explanation": "cos(π/3) = 1/2.",
+    "options": [
+      "1/2",
+      "√3/2",
+      "0",
+      "1"
+    ],
+    "tag": "trigonometry"
+  },
+  {
+    "question": "What is the binomial coefficient C(6, 2)?",
+    "answer": "15",
+    "explanation": "C(6,2) = 6!/(2!4!) = 15.",
+    "options": [
+      "12",
+      "15",
+      "20",
+      "30"
+    ],
+    "tag": "combinatorics"
+  },
+  {
+    "question": "What is the smallest positive integer that is both a square and a cube?",
+    "answer": "1",
+    "explanation": "1 is both 1^2 and 1^3.",
+    "options": [
+      "1",
+      "4",
+      "8",
+      "9"
+    ],
+    "tag": "number_theory"
+  },
+  {
+    "question": "What is the sum of the roots of the quadratic equation x^2 - 7x + 12 = 0?",
+    "answer": "7",
+    "explanation": "Sum = -b/a = 7/1 = 7.",
+    "options": [
+      "12",
+      "7",
+      "6",
+      "5"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the value of 7! (7 factorial)?",
+    "answer": "5040",
+    "explanation": "7! = 7×6×5×4×3×2×1 = 5040.~A=multiply",
+    "options": [
+      "720",
+      "5040",
+      "40320",
+      "120"
+    ],
+    "tag": "combinatorics"
+  },
+  {
+    "question": "What is the value of tan(45°)?",
+    "answer": "1",
+    "explanation": "tan(45°) = 1.",
+    "options": [
+      "0",
+      "1",
+      "√2",
+      "∞"
+    ],
+    "tag": "trigonometry"
+  },
+  {
+    "question": "What is the next prime number after 31?",
+    "answer": "37",
+    "explanation": "The next prime after 31 is 37.",
+    "options": [
+      "33",
+      "35",
+      "37",
+      "39"
+    ],
+    "tag": "number_theory"
+  },
+  {
+    "question": "If log₂(x) = 5, what is x?",
+    "answer": "32",
+    "explanation": "2^5 = 32, so x = 32.",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "25"
+    ],
+    "tag": "logarithms"
+  },
+  {
+    "question": "What is the solution to the equation |x - 3| = 5?",
+    "answer": "x = 8 or x = -2",
+    "explanation": "x - 3 = 5 ⇒ x = 8; x - 3 = -5 ⇒ x = -2.",
+    "options": [
+      "x = 8 or x = -2",
+      "x = 5 or x = -5",
+      "x = 3 or x = -3",
+      "x = 4 or x = -4"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the area of an equilateral triangle with side length 6?",
+    "answer": "9√3",
+    "explanation": "Area = (√3/4)a^2 = (√3/4)*36 = 9√3.",
+    "options": [
+      "6√3",
+      "9√3",
+      "12√3",
+      "18"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the sum of the first 10 odd numbers?",
+    "answer": "100",
+    "explanation": "Sum = n^2 = 10^2 = 100.",
+    "options": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the value of the expression 2^3 multiply 3^2?",
+    "answer": "72",
+    "explanation": "2^3 = 8, 3^2 = 9, 8 multiply 9 = 72.",
+    "options": [
+      "54",
+      "72",
+      "81",
+      "64"
+    ],
+    "tag": "arithmetic"
+  },
+  {
+    "question": "What is the value of the determinant of the matrix [[2,3],[1,4]]?",
+    "answer": "5",
+    "explanation": "Determinant = 2*4 - 3*1 = 8 - 3 = 5.",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "4"
+    ],
+    "tag": "linear_algebra"
+  },
+  {
+    "question": "What is the value of sin(90°)?",
+    "answer": "1",
+    "explanation": "sin(90°) = 1.",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "0.5"
+    ],
+    "tag": "trigonometry"
+  },
+  {
+    "question": "What is the sum of the exterior angles of any polygon?",
+    "answer": "360",
+    "explanation": "The sum of exterior angles is always 360 degrees.",
+    "options": [
+      "180",
+      "360",
+      "540",
+      "720"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the probability of drawing an ace from a standard deck of 52 cards?",
+    "answer": "1/13",
+    "explanation": "There are 4 aces, so probability = 4/52 = 1/13.",
+    "options": [
+      "1/52",
+      "1/13",
+      "1/4",
+      "1/12"
+    ],
+    "tag": "probability"
+  },
+  {
+    "question": "What is the value of the sum 1 + 2 + 4 + 8 + ... + 512?",
+    "answer": "1023",
+    "explanation": "This is a geometric series: sum = 2^(n+1) - 1 = 1023.",
+    "options": [
+      "1023",
+      "511",
+      "513",
+      "1024"
+    ],
+    "tag": "series"
+  },
+  {
+    "question": "What is the solution to the system: x + y = 5, x - y = 1?",
+    "answer": "x = 3, y = 2",
+    "explanation": "Solving gives x = 3, y = 2.",
+    "options": [
+      "x = 2, y = 3",
+      "x = 3, y = 2",
+      "x = 4, y = 1",
+      "x = 1, y = 4"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the value of the expression (3!)^2?",
+    "answer": "36",
+    "explanation": "3! = 6, so (3!)^2 = 36.",
+    "options": [
+      "12",
+      "18",
+      "36",
+      "24"
+    ],
+    "tag": "arithmetic"
+  },
+  {
+    "question": "What is the sum of the cubes of the first three natural numbers?",
+    "answer": "36",
+    "explanation": "1^3 + 2^3 + 3^3 = 1 + 8 + 27 = 36.",
+    "options": [
+      "14",
+      "36",
+      "27",
+      "35"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the value of the inverse of the matrix [[1,2],[3,4]]?",
+    "answer": "[[-2,1],[1.5,-0.5]]",
+    "explanation": "Inverse = 1/(-2) * [[4,-2],[-3,1]] = [[-2,1],[1.5,-0.5]].",
+    "options": [
+      "[[-2,1],[1.5,-0.5]]",
+      "[[2,-1],[-1.5,0.5]]",
+      "[[1,-2],[3,-4]]",
+      "[[-1,2],[-3,4]]"
+    ],
+    "tag": "linear_algebra"
+  },
+  {
+    "question": "What is the value of e^0?",
+    "answer": "1",
+    "explanation": "Any number to the power 0 is 1.",
+    "options": [
+      "0",
+      "1",
+      "e",
+      "Undefined"
+    ],
+    "tag": "exponents"
+  },
+  {
+    "question": "What is the area of a triangle with base 10 and height 6?",
+    "answer": "30",
+    "explanation": "Area = 1/2 multiplpy base multiply height = 1/2 multiply 10 multiply 6 = 30.",
+    "options": [
+      "30",
+      "60",
+      "15",
+      "20"
+    ],
+    "tag": "geometry"
+  },
+  {
+    "question": "What is the value of the sum 2 + 4 + 6 + ... + 20?",
+    "answer": "110",
+    "explanation": "This is an arithmetic series: n=10, sum = n/2(first+last) = 5multiply(2+20)=110.",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the value of sin(0)?",
+    "answer": "0",
+    "explanation": "sin(0) = 0.",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "Undefined"
+    ],
+    "tag": "trigonometry"
+  },
+  {
+    "question": "What is the value of the product of the roots of x^2 - 6x + 8 = 0?",
+    "answer": "8",
+    "explanation": "Product = c/a = 8/1 = 8.",
+    "options": [
+      "6",
+      "8",
+      "4",
+      "2"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the value of 2^10?",
+    "answer": "1024",
+    "explanation": "2^10 = 1024.",
+    "options": [
+      "512",
+      "1024",
+      "2048",
+      "1000"
+    ],
+    "tag": "arithmetic"
+  },
+  {
+    "question": "What is the sum of the reciprocals of 1, 2, and 4?",
+    "answer": "1.75",
+    "explanation": "1 + 1/2 + 1/4 = 1.75.",
+    "options": [
+      "1.25",
+      "1.5",
+      "1.75",
+      "2"
+    ],
+    "tag": "arithmetic"
+  },
+  {
+    "question": "What is the value of the expression | -7 |?",
+    "answer": "7",
+    "explanation": "The absolute value of -7 is 7.",
+    "options": [
+      "7",
+      "-7",
+      "0",
+      "1"
+    ],
+    "tag": "arithmetic"
+  },
+  {
+    "question": "What is the value of the sum 1 + 1/2 + 1/4 + 1/8 + ... (infinite series)?",
+    "answer": "2",
+    "explanation": "This is a geometric series with sum 2.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Infinity"
+    ],
+    "tag": "series"
+  },
+  {
+    "question": "What is the solution to the equation x^3 = 27?",
+    "answer": "3",
+    "explanation": "3^3 = 27, so x = 3.",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "6"
+    ],
+    "tag": "algebra"
+  },
+  {
+    "question": "What is the value of arccos(0)?",
+    "answer": "π/2",
+    "explanation": "arccos(0) = π/2.",
+    "options": [
+      "π/2",
+      "π",
+      "0",
+      "π/4"
+    ],
+    "tag": "trigonometry"
+  },
+  {
+    "question": "What is the value of the sum of the squares of the first 4 natural numbers?",
+    "answer": "30",
+    "explanation": "1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30.",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "tag": "sequences"
+  },
+  {
+    "question": "What is the value of the median of the set {1, 3, 3, 6, 7, 8, 9}?",
+    "answer": "6",
+    "explanation": "The middle value is 6.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "tag": "statistics"
+  }
+]

@@ -1,0 +1,531 @@
+[
+  {
+    "question": "What is the Heisenberg Uncertainty Principle?",
+    "answer": "It states that it is impossible to know both the position and momentum of a particle with absolute precision.",
+    "explanation": "The Heisenberg Uncertainty Principle is a fundamental concept in quantum mechanics.",
+    "options": [
+      "It describes gravity.",
+      "It states that it is impossible to know both the position and momentum of a particle with absolute precision.",
+      "It explains atomic structure.",
+      "It defines chemical reactions."
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "Which element has the highest melting point?",
+    "answer": "Tungsten",
+    "explanation": "Tungsten has the highest melting point of all elements at about 3422°C.",
+    "options": [
+      "Iron",
+      "Tungsten",
+      "Platinum",
+      "Carbon"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of the Golgi apparatus in a cell?",
+    "answer": "Processing and packaging proteins and lipids",
+    "explanation": "The Golgi apparatus modifies, sorts, and packages proteins and lipids for secretion or use within the cell.",
+    "options": [
+      "Energy production",
+      "Processing and packaging proteins and lipids",
+      "Protein synthesis",
+      "DNA replication"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the value of Planck’s constant (h) in SI units?",
+    "answer": "6.626 × 10⁻³⁴ J·s",
+    "explanation": "Planck’s constant is a fundamental constant in quantum mechanics.",
+    "options": [
+      "3.00 × 10⁸ J·s",
+      "1.602 × 10⁻¹⁹ J·s",
+      "6.626 × 10⁻³⁴ J·s",
+      "9.81 × 10⁻³⁴ J·s"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "Which scientist first proposed the heliocentric model of the solar system?",
+    "answer": "Nicolaus Copernicus",
+    "explanation": "Copernicus proposed that the Sun, not the Earth, is at the center of the solar system.",
+    "options": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Nicolaus Copernicus",
+      "Johannes Kepler"
+    ],
+    "tag": "astronomy"
+  },
+  {
+    "question": "What is the most abundant protein in the human body?",
+    "answer": "Collagen",
+    "explanation": "Collagen is the most abundant protein, providing structure to skin, bones, and connective tissue.",
+    "options": [
+      "Keratin",
+      "Collagen",
+      "Hemoglobin",
+      "Myosin"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical formula for ozone?",
+    "answer": "O₃",
+    "explanation": "Ozone is a molecule made up of three oxygen atoms.",
+    "options": [
+      "O₂",
+      "O₃",
+      "CO₂",
+      "NO₂"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the second law of thermodynamics?",
+    "answer": "The entropy of an isolated system always increases over time.",
+    "explanation": "The second law of thermodynamics states that disorder, or entropy, increases in an isolated system.",
+    "options": [
+      "Energy cannot be created or destroyed.",
+      "The entropy of an isolated system always increases over time.",
+      "For every action, there is an equal and opposite reaction.",
+      "Force equals mass times acceleration."
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "Which planet has the shortest day in the solar system?",
+    "answer": "Jupiter",
+    "explanation": "Jupiter rotates on its axis in about 10 hours.",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Neptune"
+    ],
+    "tag": "astronomy"
+  },
+  {
+    "question": "What is the main function of ribosomes in a cell?",
+    "answer": "Protein synthesis",
+    "explanation": "Ribosomes are responsible for assembling amino acids into proteins.",
+    "options": [
+      "Energy production",
+      "Protein synthesis",
+      "DNA replication",
+      "Lipid storage"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical name for vitamin C?",
+    "answer": "Ascorbic acid",
+    "explanation": "Vitamin C is also known as ascorbic acid.",
+    "options": [
+      "Retinol",
+      "Ascorbic acid",
+      "Calciferol",
+      "Cobalamin"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the SI unit of electric capacitance?",
+    "answer": "Farad",
+    "explanation": "The SI unit of capacitance is the farad (F).",
+    "options": [
+      "Ohm",
+      "Farad",
+      "Henry",
+      "Tesla"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What is the main function of chlorophyll in plants?",
+    "answer": "Absorbing light for photosynthesis",
+    "explanation": "Chlorophyll absorbs sunlight, which is used in photosynthesis.",
+    "options": [
+      "Storing water",
+      "Absorbing light for photosynthesis",
+      "Transporting nutrients",
+      "Protecting against insects"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which element has the highest electrical conductivity at room temperature?",
+    "answer": "Silver",
+    "explanation": "Silver is the best conductor of electricity at room temperature.",
+    "options": [
+      "Copper",
+      "Gold",
+      "Silver",
+      "Aluminum"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?",
+    "answer": "Boyle's Law",
+    "explanation": "Boyle's Law describes the inverse relationship between pressure and volume.",
+    "options": [
+      "Boyle's Law",
+      "Charles's Law",
+      "Avogadro's Law",
+      "Dalton's Law"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria",
+    "explanation": "Mitochondria produce energy for the cell.",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the primary greenhouse gas responsible for global warming?",
+    "answer": "Carbon dioxide",
+    "explanation": "Carbon dioxide is the main greenhouse gas linked to global warming.",
+    "options": [
+      "Methane",
+      "Ozone",
+      "Carbon dioxide",
+      "Nitrous oxide"
+    ],
+    "tag": "earth_science"
+  },
+  {
+    "question": "What is the most common isotope of uranium found in nature?",
+    "answer": "Uranium-238",
+    "explanation": "Uranium-238 is the most abundant isotope of uranium.",
+    "options": [
+      "Uranium-235",
+      "Uranium-238",
+      "Uranium-234",
+      "Uranium-239"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of white blood cells?",
+    "answer": "Fighting infection",
+    "explanation": "White blood cells defend the body against infection.",
+    "options": [
+      "Carrying oxygen",
+      "Clotting blood",
+      "Fighting infection",
+      "Digesting food"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming",
+    "explanation": "Alexander Fleming discovered penicillin in 1928.",
+    "options": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Marie Curie",
+      "Joseph Lister"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical symbol for the element with atomic number 79?",
+    "answer": "Au",
+    "explanation": "The chemical symbol for gold is Au.",
+    "options": [
+      "Ag",
+      "Au",
+      "Pt",
+      "Pb"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of the large intestine?",
+    "answer": "Absorbing water and forming feces",
+    "explanation": "The large intestine absorbs water and forms feces.",
+    "options": [
+      "Digesting proteins",
+      "Absorbing water and forming feces",
+      "Producing insulin",
+      "Filtering blood"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which scientist developed the theory of general relativity?",
+    "answer": "Albert Einstein",
+    "explanation": "Albert Einstein developed the theory of general relativity.",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Stephen Hawking",
+      "Niels Bohr"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What is the main function of the enzyme amylase?",
+    "answer": "Breaking down starch into sugars",
+    "explanation": "Amylase breaks down starch into simple sugars.",
+    "options": [
+      "Breaking down proteins",
+      "Breaking down starch into sugars",
+      "Digesting fats",
+      "Synthesizing DNA"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the most common type of star in the Milky Way galaxy?",
+    "answer": "Red dwarf",
+    "explanation": "Red dwarfs are the most common stars in our galaxy.",
+    "options": [
+      "Red giant",
+      "White dwarf",
+      "Red dwarf",
+      "Blue giant"
+    ],
+    "tag": "astronomy"
+  },
+  {
+    "question": "What is the main function of the nephron in the kidney?",
+    "answer": "Filtering blood and forming urine",
+    "explanation": "Nephrons filter blood and form urine.",
+    "options": [
+      "Producing hormones",
+      "Filtering blood and forming urine",
+      "Digesting proteins",
+      "Storing fat"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which law states that the current through a conductor between two points is directly proportional to the voltage across the two points?",
+    "answer": "Ohm's Law",
+    "explanation": "Ohm's Law: V = IR.",
+    "options": [
+      "Boyle's Law",
+      "Ohm's Law",
+      "Newton's Law",
+      "Faraday's Law"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What is the chemical formula for table sugar?",
+    "answer": "C12H22O11",
+    "explanation": "Table sugar (sucrose) has the formula C12H22O11.",
+    "options": [
+      "C6H12O6",
+      "C12H22O11",
+      "C2H5OH",
+      "C12H24O12"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of the hormone insulin?",
+    "answer": "Regulating blood sugar levels",
+    "explanation": "Insulin regulates blood glucose levels.",
+    "options": [
+      "Digesting fat",
+      "Regulating blood sugar levels",
+      "Increasing heart rate",
+      "Producing red blood cells"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the most common isotope of carbon?",
+    "answer": "Carbon-12",
+    "explanation": "Carbon-12 is the most abundant carbon isotope.",
+    "options": [
+      "Carbon-12",
+      "Carbon-13",
+      "Carbon-14",
+      "Carbon-11"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of hemoglobin?",
+    "answer": "Carrying oxygen in the blood",
+    "explanation": "Hemoglobin carries oxygen from the lungs to the tissues.",
+    "options": [
+      "Digesting food",
+      "Carrying oxygen in the blood",
+      "Producing hormones",
+      "Filtering blood"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the SI unit of force?",
+    "answer": "Newton",
+    "explanation": "The SI unit of force is the newton (N).",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What is the main function of the pancreas?",
+    "answer": "Producing digestive enzymes and insulin",
+    "explanation": "The pancreas produces digestive enzymes and the hormone insulin.",
+    "options": [
+      "Producing bile",
+      "Producing digestive enzymes and insulin",
+      "Filtering blood",
+      "Storing vitamins"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which scientist is known as the father of modern chemistry?",
+    "answer": "Antoine Lavoisier",
+    "explanation": "Lavoisier is considered the father of modern chemistry.",
+    "options": [
+      "John Dalton",
+      "Antoine Lavoisier",
+      "Dmitri Mendeleev",
+      "Robert Boyle"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of the small intestine?",
+    "answer": "Absorbing nutrients from food",
+    "explanation": "The small intestine absorbs nutrients from digested food.",
+    "options": [
+      "Absorbing nutrients from food",
+      "Storing waste",
+      "Producing insulin",
+      "Filtering blood"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the main function of the hormone adrenaline?",
+    "answer": "Preparing the body for 'fight or flight' response",
+    "explanation": "Adrenaline increases heart rate and energy in response to stress.",
+    "options": [
+      "Digesting food",
+      "Preparing the body for 'fight or flight' response",
+      "Producing red blood cells",
+      "Filtering blood"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical formula for methane?",
+    "answer": "CH4",
+    "explanation": "Methane has the chemical formula CH4.",
+    "options": [
+      "CH4",
+      "C2H6",
+      "C2H4",
+      "C3H8"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of the hormone thyroxine?",
+    "answer": "Regulating metabolism",
+    "explanation": "Thyroxine regulates the body's metabolic rate.",
+    "options": [
+      "Regulating blood sugar",
+      "Regulating metabolism",
+      "Producing red blood cells",
+      "Digesting fats"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the main function of the hormone estrogen?",
+    "answer": "Regulating female reproductive system",
+    "explanation": "Estrogen regulates the female reproductive system.",
+    "options": [
+      "Regulating metabolism",
+      "Regulating blood pressure",
+      "Regulating female reproductive system",
+      "Producing insulin"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the main function of the hormone testosterone?",
+    "answer": "Regulating male reproductive system",
+    "explanation": "Testosterone regulates the male reproductive system.",
+    "options": [
+      "Regulating metabolism",
+      "Regulating male reproductive system",
+      "Producing insulin",
+      "Digesting fats"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which element is liquid at room temperature?",
+    "answer": "Mercury",
+    "explanation": "Mercury is the only metal that is liquid at room temperature.",
+    "options": [
+      "Bromine",
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main function of the hormone cortisol?",
+    "answer": "Regulating stress response",
+    "explanation": "Cortisol is a stress hormone.",
+    "options": [
+      "Regulating metabolism",
+      "Regulating stress response",
+      "Producing insulin",
+      "Digesting fats"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the main function of the hormone melatonin?",
+    "answer": "Regulating sleep-wake cycles",
+    "explanation": "Melatonin regulates circadian rhythms.",
+    "options": [
+      "Regulating metabolism",
+      "Regulating sleep-wake cycles",
+      "Producing insulin",
+      "Digesting fats"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical symbol for the element with atomic number 26?",
+    "answer": "Fe",
+    "explanation": "Fe is the symbol for iron, atomic number 26.",
+    "options": [
+      "Fe",
+      "Cu",
+      "Zn",
+      "Ag"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "

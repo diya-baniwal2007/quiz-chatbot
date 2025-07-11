@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Sir Isaac Newton",
+    "explanation": "Sir Isaac Newton discovered the concept of gravity.",
+    "options": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Sir Isaac Newton",
+      "Nikola Tesla"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "How many colors are in a rainbow?",
+    "answer": "7",
+    "explanation": "A rainbow has 7 colors.",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "tag": "nature"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "answer": "Diamond",
+    "explanation": "Diamond is the hardest natural substance.",
+    "options": [
+      "Gold",
+      "Iron",
+      "Diamond",
+      "Quartz"
+    ],
+    "tag": "earth_science"
+  },
+  {
+    "question": "Which planet is known for its rings?",
+    "answer": "Saturn",
+    "explanation": "Saturn is famous for its beautiful rings.",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "tag": "space"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answer": "H2O",
+    "explanation": "Water's chemical formula is H2O.",
+    "options": [
+      "O2",
+      "CO2",
+      "H2O",
+      "NaCl"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "explanation": "Jupiter is the largest planet in the solar system.",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "tag": "space"
+  },
+  {
+    "question": "What is the main gas found in the air we breathe?",
+    "answer": "Nitrogen",
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "tag": "earth_science"
+  },
+  {
+    "question": "How many bones are there in an adult human body?",
+    "answer": "206",
+    "explanation": "An adult human has 206 bones.",
+    "options": [
+      "205",
+      "206",
+      "210",
+      "215"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "answer": "100",
+    "explanation": "Water boils at 100°C at sea level.",
+    "options": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which organ pumps blood throughout the body?",
+    "answer": "Heart",
+    "explanation": "The heart pumps blood in the human body.",
+    "options": [
+      "Liver",
+      "Lungs",
+      "Heart",
+      "Kidneys"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What do plants absorb from sunlight to make food?",
+    "answer": "Energy",
+    "explanation": "Plants absorb energy from sunlight for photosynthesis.",
+    "options": [
+      "Water",
+      "Oxygen",
+      "Energy",
+      "Salt"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which gas do plants release during photosynthesis?",
+    "answer": "Oxygen",
+    "explanation": "Plants release oxygen during photosynthesis.",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin",
+    "explanation": "Skin is the largest organ in the human body.",
+    "options": [
+      "Heart",
+      "Skin",
+      "Liver",
+      "Lungs"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which part of the plant is responsible for photosynthesis?",
+    "answer": "Leaves",
+    "explanation": "Leaves are responsible for photosynthesis.",
+    "options": [
+      "Roots",
+      "Stem",
+      "Leaves",
+      "Flowers"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the closest planet to the Sun?",
+    "answer": "Mercury",
+    "explanation": "Mercury is the closest planet to the Sun.",
+    "options": [
+      "Venus",
+      "Earth",
+      "Mars",
+      "Mercury"
+    ],
+    "tag": "space"
+  },
+  {
+    "question": "What is the process called when water vapor turns into liquid water?",
+    "answer": "Condensation",
+    "explanation": "Condensation is the process of water vapor turning into liquid.",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Sublimation",
+      "Precipitation"
+    ],
+    "tag": "earth_science"
+  },
+  {
+    "question": "What is the main source of energy for the Earth?",
+    "answer": "The Sun",
+    "explanation": "The Sun is Earth's main energy source.",
+    "options": [
+      "Wind",
+      "The Sun",
+      "Coal",
+      "Water"
+    ],
+    "tag": "earth_science"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "explanation": "Gold's chemical symbol is Au.",
+    "options": [
+      "Ag",
+      "Au",
+      "Gd",
+      "Go"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which vitamin is produced when a person is exposed to sunlight?",
+    "answer": "Vitamin D",
+    "explanation": "Sunlight helps the body produce vitamin D.",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which animal is known as the King of the Jungle?",
+    "answer": "Lion",
+    "explanation": "The lion is called the King of the Jungle.",
+    "options": [
+      "Tiger",
+      "Lion",
+      "Elephant",
+      "Bear"
+    ],
+    "tag": "animals"
+  },
+  {
+    "question": "What is the study of mushrooms called?",
+    "answer": "Mycology",
+    "explanation": "Mycology is the study of mushrooms.",
+    "options": [
+      "Botany",
+      "Zoology",
+      "Mycology",
+      "Geology"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the chemical formula for table salt?",
+    "answer": "NaCl",
+    "explanation": "Table salt's formula is NaCl.",
+    "options": [
+      "NaCl",
+      "H2O",
+      "CO2",
+      "KCl"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which part of the cell is known as the powerhouse?",
+    "answer": "Mitochondria",
+    "explanation": "Mitochondria are called the powerhouse of the cell.",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Chloroplast"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which gas is most commonly used in balloons?",
+    "answer": "Helium",
+    "explanation": "Helium is commonly used in balloons.",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Helium",
+      "Nitrogen"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "How many legs does an octopus have?",
+    "answer": "8",
+    "explanation": "An octopus has 8 legs.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "animals"
+  },
+  {
+    "question": "What is the main function of red blood cells?",
+    "answer": "To carry oxygen",
+    "explanation": "Red blood cells carry oxygen throughout the body.",
+    "options": [
+      "Fight infection",
+      "Carry oxygen",
+      "Clot blood",
+      "Digest food"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which planet is known as the Giant Planet?",
+    "answer": "Jupiter",
+    "explanation": "Jupiter is called the Giant Planet.",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Mars"
+    ],
+    "tag": "space"
+  },
+  {
+    "question": "What instrument is used to measure temperature?",
+    "answer": "Thermometer",
+    "explanation": "A thermometer measures temperature.",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What is the pH level of pure water?",
+    "answer": "7",
+    "explanation": "Pure water has a neutral pH of 7.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Which organ in the human body filters blood and produces urine?",
+    "answer": "Kidneys",
+    "explanation": "The kidneys filter blood and produce urine.",
+    "options": [
+      "Liver",
+      "Lungs",
+      "Kidneys",
+      "Heart"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "answer": "Blue whale",
+    "explanation": "The blue whale is the largest mammal.",
+    "options": [
+      "Elephant",
+      "Blue whale",
+      "Giraffe",
+      "Hippopotamus"
+    ],
+    "tag": "animals"
+  },
+  {
+    "question": "What is the process by which plants lose water vapor?",
+    "answer": "Transpiration",
+    "explanation": "Plants lose water vapor through transpiration.",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Condensation"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the smallest unit of life?",
+    "answer": "Cell",
+    "explanation": "The cell is the smallest unit of life.",
+    "options": [
+      "Atom",
+      "Molecule",
+      "Cell",
+      "Organ"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Which scientist developed the theory of evolution by natural selection?",
+    "answer": "Charles Darwin",
+    "explanation": "Charles Darwin developed the theory of evolution by natural selection.",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Charles Darwin",
+      "Gregor Mendel"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "299,792 kilometers per second",
+    "explanation": "The speed of light is about 299,792 km/s.",
+    "options": [
+      "150,000 km/s",
+      "299,792 km/s",
+      "1,000,000 km/s",
+      "186,000 km/s"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What is the main ingredient in glass?",
+    "answer": "Sand (Silica)",
+    "explanation": "Glass is mainly made from sand (silica).",
+    "options": [
+      "Salt",
+      "Sand (Silica)",
+      "Sugar",
+      "Clay"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the chemical formula for chalk?",
+    "answer": "CaCO3",
+    "explanation": "Chalk is calcium carbonate (CaCO3).",
+    "options": [
+      "NaCl",
+      "CaCO3",
+      "H2O",
+      "CO2"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "Who discovered the cell?",
+    "answer": "Robert Hooke",
+    "explanation": "Robert Hooke discovered the cell.",
+    "options": [
+      "Isaac Newton",
+      "Robert Hooke",
+      "Albert Einstein",
+      "Louis Pasteur"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "What is the gas that is filled in electric bulbs?",
+    "answer": "Nitrogen",
+    "explanation": "Nitrogen is commonly used in electric bulbs.",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Helium"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the common name for sodium bicarbonate?",
+    "answer": "Baking soda",
+    "explanation": "Sodium bicarbonate is commonly known as baking soda.",
+    "options": [
+      "Baking powder",
+      "Baking soda",
+      "Salt",
+      "Sugar"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the main gas in biogas?",
+    "answer": "Methane",
+    "explanation": "Methane is the main gas in biogas.",
+    "options": [
+      "Oxygen",
+      "Methane",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What element gives blood its red color?",
+    "answer": "Iron",
+    "explanation": "Iron gives blood its red color.",
+    "options": [
+      "Oxygen",
+      "Iron",
+      "Calcium",
+      "Magnesium"
+    ],
+    "tag": "biology"
+  },
+  {
+    "question": "Why does the sky appear blue?",
+    "answer": "Scattering of light",
+    "explanation": "The sky appears blue due to the scattering of light.",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Scattering of light",
+      "Absorption"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "Which is the most abundant element in the universe?",
+    "answer": "Hydrogen",
+    "explanation": "Hydrogen is the most abundant element in the universe.",
+    "options": [
+      "Oxygen",
+      "Carbon",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "How is heat produced in the sun?",
+    "answer": "Nuclear fusion",
+    "explanation": "Heat in the sun is produced by nuclear fusion.",
+    "options": [
+      "Combustion",
+      "Nuclear fission",
+      "Nuclear fusion",
+      "Evaporation"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "How many days does the Moon take to revolve around the Earth?",
+    "answer": "27.3 days",
+    "explanation": "The Moon takes about 27.3 days to revolve around the Earth.",
+    "options": [
+      "24 days",
+      "27.3 days",
+      "30 days",
+      "31 days"
+    ],
+    "tag": "space"
+  },
+  {
+    "question": "What is dry ice?",
+    "answer": "Solid carbon dioxide",
+    "explanation": "Dry ice is the solid form of carbon dioxide.",
+    "options": [
+      "Solid oxygen",
+      "Solid nitrogen",
+      "Solid carbon dioxide",
+      "Solid hydrogen"
+    ],
+    "tag": "chemistry"
+  },
+  {
+    "question": "What is the final velocity of a ball thrown vertically upwards at its maximum height?",
+    "answer": "Zero",
+    "explanation": "At maximum height, the ball's velocity is zero.",
+    "options": [
+      "Zero",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "What are fluids?",
+    "answer": "Liquids and gases",
+    "explanation": "Fluids include liquids and gases.",
+    "options": [
+      "Solids and gases",
+      "Liquids and gases",
+      "Solids and liquids",
+      "Solids only"
+    ],
+    "tag": "physics"
+  },
+  {
+    "question": "Diamond is made up of which element?",
+    "answer": "Carbon",
+    "explanation": "Diamond is a form of carbon.",
+    "options": [
+      "Carbon",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "tag": "chemistry"
+  }
+]
